@@ -9,15 +9,32 @@
         <div class="header-about">
             <p class="topic">Profolio - Hitesh</p>
         </div>
-        <div class="header-button">
+        <div class="buttons">
+            <div class="header-button">
+                <a href="index.html">                
+                    <button class="Profolio-button">Profolio</button>
+                </a>
+                <a href="https://hiteshhighest.github.io/1013/" target="_blank">
+                    <button class="About-button">About</button>
+                </a>
+                <a href="404.html" target="_blank">               
+                    <button class="Contact-button">Contact</button>
+                </a>
+            </div>   
+            <svg onclick=Showsidebar() class="menu-open" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>    
+        </div>
+    </div>
+    <div class="sidebar">
+        <svg onclick=Hidesidebar() class="menu-close" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <div class="sidebar-button">
             <a href="index.html">                
-                <button class="Profolio-button">Profolio</button>
+                <button>Profolio</button>
             </a>
             <a href="https://hiteshhighest.github.io/1013/" target="_blank">
-                <button class="About-button">About</button>
+                <button>About</button>
             </a>
             <a href="404.html" target="_blank">               
-                <button class="Contact-button">Contact</button>
+                <button>Contact</button>
             </a>
         </div>   
     </div>
@@ -125,6 +142,7 @@
                 </button>
             </a>
         </div>
-    </div>   
+    </div> 
+    <script src="script.js"></script>  
 </body>
 </html>
