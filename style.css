@@ -231,13 +231,13 @@ body {
     animation: move 6s linear infinite;
     background-color: transparent;
     border: none;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .social-button:hover {
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 .social-button1 {
