@@ -15,6 +15,7 @@ body {
     margin-right: 20px;
 }
 
+/* Header */
 .header {
     position: fixed;
     display: flex;
@@ -110,6 +111,7 @@ body {
     }
 }
 
+/* Open/Close button - Sidebar */
 .menu-open {
     display: flex;
     cursor: pointer;
@@ -129,6 +131,7 @@ body {
     }
 }
 
+/* Sidebar */
 .sidebar {
     display: none;
     position: fixed;
@@ -164,6 +167,7 @@ body {
     background-color: rgba(255,255,255,0.5);
 }
 
+/* Container */
 .container {
     display: flex;
     flex-direction: column;
@@ -291,6 +295,7 @@ body {
     font-weight: bold;
 }
 
+/* Infinite scroll / Social medias */
 .social {
     position: relative;
     display: flex;
