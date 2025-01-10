@@ -1,3 +1,4 @@
+// Open - Sidebar
 function Showsidebar() {
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'flex';
@@ -5,6 +6,7 @@ function Showsidebar() {
     header.style.display = 'none';
 }
 
+// Close - Sidebar
 function Hidesidebar() {
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none';
